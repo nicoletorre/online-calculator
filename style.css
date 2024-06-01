@@ -1,0 +1,291 @@
+#result {
+    width: 210px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 10px; 
+    border-radius: 20px;
+    background-color: white;
+    border: 3px ridge;
+    font-size: x-large;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.num-btn {
+    padding: 20px;
+    font-size: larger;
+    border-radius: 15px;
+}
+
+.equal {
+    width: 50px;
+    height: 65px;
+    border-radius: 15px;
+}
+
+.box {
+    background-color: rgb(84, 84, 123);
+    width: 240px;
+    padding: 15px;
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+
+.zero {
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.dot {
+    width: 50px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.plus {
+    width: 50px;
+    height: 65px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.equal {
+    width: 50px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: larger;
+
+}
+
+.ac {
+    width: 55px;
+    height: 50px;
+    border-radius: 15px;
+
+}
+
+.del {
+    width: 55px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: -120px;
+}
+
+.percent {
+    width: 56px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: -113px;
+    font-size: larger;
+}
+
+.multiply {
+    width: 48px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: -56px;
+    color: rgb(179, 7, 90);
+}
+
+.subtract{
+    width: 48px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.division{
+    width: 48px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.num-btn:hover, .plus:hover, .dot:hover, .zero:hover{
+    background-color: rgb(143, 143, 211);
+    color: white;
+}
+
+.ac, .del, .percent, .multiply, .plus, .minus, .equal, .subtract, .division{
+    background-color: #FFB17A;
+}
+
+.ac:hover, .del:hover, .percent:hover, .multiply:hover, .division:hover, .subtract:hover, .plus:hover, .equal:hover{
+    background-color: #db8141;
+}
+
+@media (max-width: 425px) {
+    #result {
+        width: 150px;  
+        height: 35px;  
+        padding: 8px;  
+        margin: 10px auto;  
+        font-size: large; 
+    }
+
+    .num-btn {
+        padding: 15px;  
+        font-size: medium;  
+        border-radius: 10px;  
+    }
+
+    .equal, .plus, .dot, .zero, .ac, .del, .percent, .multiply {
+        width: 45px; 
+        height: 50px;  
+        border-radius: 10px;  
+        font-size: medium;  
+        margin: 5px 1%;  
+        box-sizing: border-box;
+    }
+
+    .box {
+        width: 200px;  
+        padding: 10px; 
+        margin: 15px auto;  
+    }
+}
+
+@media (max-width: 464px) {
+    #result {
+        width: 160px;
+        height: 35px;
+        padding: 5px;
+        margin: 10px auto;
+        font-size: medium;
+        margin-left: 20px;
+    }
+    h1 {
+        margin-left: -20px;
+        font-size: x-large;
+    }
+
+    .num-btn {
+        padding: 15px;
+        font-size: large;
+        border-radius: 8px;
+    }
+
+    .plus, .dot {
+        width: 50px;
+        height: 55px;
+        font-size: larger;
+        border-radius: 15px;
+    }
+
+    .zero {
+        width: 90px;
+        height: 50px;
+        font-size: large;
+        margin-bottom: 60px;
+    }
+
+    .del {
+        margin-left: -98px;
+        width: 48px;
+    }
+
+    .equal{
+        margin-bottom: 60px;
+        width: 50px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .ac{
+        width: 48px;
+    }
+    
+
+    .percent {
+        margin-left: -100px;
+        width: 48px;
+    }
+
+    .multiply {
+        margin-left: -55px;
+        width: 48px;
+    }
+
+    .subtract, .division{
+        width: 50px;
+        height: 55px;
+    }
+
+    .dot{
+        width: 48px;
+        margin-bottom: 20px;
+        margin-bottom: 60px;
+
+    }
+
+    .box {
+        width: 200px;
+        padding: 8px;
+        margin: 10px auto;
+    }
+}
+
+
+@media (max-width: 320px) {
+    #result {
+        width: 155px;
+        height: 35px;
+        padding: 5px;
+        font-size: medium;
+    }
+
+    h1 {
+        margin-left: -10px;
+        font-size: x-large;
+    }
+
+    .num-btn {
+        padding: 18px;
+        font-size: large;
+        border-radius: 8px;
+    }
+
+    .plus, .dot, .equal {
+        width: 40px;
+    }
+
+    .zero {
+        width: 100px;
+    }
+
+    .del{
+        margin-left: -106px;
+    }
+
+    .dot{
+        width: 48px;
+    }
+
+    .percent{
+        margin-left: -102px;
+    }
+
+    .multiply{
+        margin-left: -55px;
+    }
+
+    .division, .subtract, .plus, .equal{
+        width: 45px;
+        height: 60px;
+        border-radius: 15px;
+    }
+
+    .zero, .dot, .equal{
+        margin-bottom: 20px;
+        
+    }
+
+    .box {
+        width: 210px;
+        padding: 8px;
+    }
+}
